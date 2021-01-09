@@ -36,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1600 4100 1650
 Wire Wire Line
-	2950 1800 4300 1800
+	2950 1800 3050 1800
 Wire Wire Line
 	4300 1800 4300 1550
 $Comp
@@ -596,4 +596,29 @@ F 3 "" H 3400 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 3850 3700 3850
+$Comp
+L Device:R_Small R1
+U 1 1 5FFB0657
+P 2900 1050
+F 0 "R1" H 2959 1096 50  0000 L CNN
+F 1 "100k" H 2959 1005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2900 1050 50  0001 C CNN
+F 3 "~" H 2900 1050 50  0001 C CNN
+	1    2900 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 950  3150 950 
+Wire Wire Line
+	3150 950  3150 1400
+Connection ~ 3150 1400
+Wire Wire Line
+	2900 1150 2900 1200
+Wire Wire Line
+	2900 1200 3050 1200
+Wire Wire Line
+	3050 1200 3050 1800
+Connection ~ 3050 1800
+Wire Wire Line
+	3050 1800 4300 1800
 $EndSCHEMATC
