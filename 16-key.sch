@@ -548,4 +548,52 @@ Text GLabel 6350 3300 3    50   Input ~ 0
 COL2
 Text GLabel 6850 3300 3    50   Input ~ 0
 COL3
+Text GLabel 3700 3250 0    50   Input ~ 0
+CS
+Text GLabel 3700 3150 0    50   Input ~ 0
+CO
+Text GLabel 3700 3350 0    50   Input ~ 0
+DI
+Text GLabel 3700 3450 0    50   Input ~ 0
+DO
+Text GLabel 3700 3550 0    50   Input ~ 0
+CLK
+Text GLabel 3700 3650 0    50   Input ~ 0
+GND
+Text GLabel 3700 3750 0    50   Input ~ 0
+3V
+Text GLabel 2950 2400 2    50   Input ~ 0
+DO
+Text GLabel 2950 2500 2    50   Input ~ 0
+DI
+Text GLabel 2950 2300 2    50   Input ~ 0
+CLK
+Text GLabel 2950 2200 2    50   Input ~ 0
+CS
+Text GLabel 2950 2100 2    50   Input ~ 0
+CO
+$Comp
+L 16-key-eagle-import:PINHD-1X8LOCK MICROSD1
+U 1 1 5FFA0D3D
+P 3800 3450
+F 0 "MICROSD1" H 3878 3453 59  0000 L CNN
+F 1 "PINHD-1X8LOCK" H 3878 3348 59  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 3800 3450 50  0001 C CNN
+F 3 "" H 3800 3450 50  0001 C CNN
+	1    3800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5FFA6FC3
+P 3400 3850
+F 0 "#PWR0104" H 3400 3700 50  0001 C CNN
+F 1 "+5V" H 3415 4023 50  0000 C CNN
+F 2 "" H 3400 3850 50  0001 C CNN
+F 3 "" H 3400 3850 50  0001 C CNN
+	1    3400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3850 3700 3850
 $EndSCHEMATC
